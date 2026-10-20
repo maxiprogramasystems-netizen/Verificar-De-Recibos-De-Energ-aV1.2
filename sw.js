@@ -1,6 +1,6 @@
 /* Service worker: permite usar la app sin internet.
    Si cambias index.html, sube el número de VERSION para que los celulares se actualicen. */
-const VERSION = 'v1.2.1';
+const VERSION = 'v1.2.2';
 const CACHE = 'verificador-recibos-' + VERSION;
 const SHELL = [
   './', 'index.html', 'manifest.webmanifest', 'favicon.ico',

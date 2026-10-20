@@ -6,6 +6,7 @@ Todo se guarda **solo en tu dispositivo** (localStorage); no se envía nada a ni
 
 ## Instalar en el celular
 
+- **Al abrir la página** aparece un aviso abajo con el botón **Instalar** (Chrome, Edge, Android y computador). Los navegadores no permiten instalar sin que la persona toque ese botón.
 - **Android (Chrome):** abre la página y toca **Instalar app** (o menú ⋮ → *Instalar aplicación*).
 - **iPhone / iPad (Safari):** toca **Compartir** → **Añadir a pantalla de inicio**.
 - **Computador (Chrome / Edge):** ícono de instalar en la barra de direcciones.
@@ -25,11 +26,11 @@ Todo se guarda **solo en tu dispositivo** (localStorage); no se envía nada a ni
 | `sw.js` | Permite abrir la app sin internet |
 | `icons/` | Íconos 192/512 px, versión *maskable*, iPhone y favicon |
 | `favicon.ico` | Ícono de la pestaña del navegador |
-| `.nojekyll` | Evita que GitHub Pages procese los archivos |
+| `.nojekyll` | Evita que GitHub Pages procese los archivos (el nombre empieza con punto) |
 
 ## Actualizar
 
-Al modificar `index.html`, cambia `VERSION` en `sw.js` (por ejemplo `v1.2.2`) para que los dispositivos descarguen la nueva versión.
+Al modificar `index.html`, cambia `VERSION` en `sw.js` (por ejemplo `v1.2.3`) para que los dispositivos descarguen la nueva versión.
 
 ## Privacidad
 
